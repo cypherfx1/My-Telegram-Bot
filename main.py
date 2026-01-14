@@ -67,8 +67,14 @@ VIP_DETAILS = """
 🔥 <b>VIP Signal Service</b> 🔥
 
 <b>Premium Forex Signals with High Accuracy</b>
-• Minimum 3–5 signals weekly (minimum!)
-• 90% win rate track record</blockquote>
+<blockquote>• Minimum 3–5 signals weekly (minimum!)
+• 90% win rate track record
+• 
+
+<b>PAIRS WE TRADE</b>
+<blockquote>»» Major Currences
+»» Gold Pair
+»» Crypto (btc & eth)</blockquote>
 
 <b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
 <blockquote>• Stop Loss & Take Profit levels
@@ -83,6 +89,13 @@ VIP_DETAILS = """
 • 6 MONTHS: N260,000 ≈ $182
 • 12 MONTHS: N520,000 ≈ $364</blockquote>
 
+<b>GOOD NEWS</b> 🎉 
+<blockquote>You don't need any trading experience to trade and make money with us in the Vip Signal Group!
+Just create and fund your account with the link below, then subscribe to our vip signals group and start trading our buy and sell signals/projections every day ✅️
+http://bit.ly/41jyYri</blockquote>
+
+<blockquote>Join, sit back, and be alert for our buy or sell signals/charts projections. Once we post and confirm the signal, trade it exactly as you see and count your profit. With only our signals and trades, you will be making good profit daily. Be rest assured that your trading account will grow awesomely</blockquote>
+
 <b>TERMS & CONDITIONS</b>
 <blockquote>Complaints only after a full month of following rules.
 
@@ -93,8 +106,8 @@ Daily signals, analysis, and dedicated support! 🚀</blockquote>
 TRAINING_DETAILS = """
 📚 <b>FOREX TRAINING PROGRAM</b> 📚
 
-<b>PICK YOUR PREFERRED PACKAGE PLAN:</b>
-Exclusive One-On-One Mentorship (online)
+<b>PICK YOUR PREFERRED PACKAGE PLAN</b>
+<blockquote>Exclusive One-On-One Mentorship (online)
 Exclusive One-On-One Mentorship (physical)</blockquote>
 
 <b>EXCLUSIVE ONE-ONE-ONE TRAINING (online Private Training)</b>
@@ -123,7 +136,7 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 • Trade independently as a full-time or part-time pro trader
 • Make money daily from your analysis
 • Be your own boss and not work 9 to 5
-• Lifetime skills for consistent profits
+• Lifetime skills for consistent profits</blockquote>
 
 We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
 """.strip()
