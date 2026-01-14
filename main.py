@@ -96,7 +96,7 @@ http://bit.ly/41jyYri</blockquote>
 <blockquote>Join, sit back, and be alert for our buy or sell signals/charts projections. Once we post and confirm the signal, trade it exactly as you see and count your profit. With only our signals and trades, you will be making good profit daily. Be rest assured that your trading account will grow awesomely</blockquote>
 
 <b>TERMS & CONDITIONS</b>
-<blockquote>Complaints only after a full month of following rules.
+<blockquote>Complaints only after a full month of following signals.
 Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
@@ -114,7 +114,7 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 • 1 month + 2 weeks duration
 • 3 sessions weekly (2–3 hrs)
 • Access to my VIP Signals group
-• Lifetime Mentorshio/follow-up</blockquote>
+• Lifetime Mentorship/follow-up</blockquote>
 <b>PRICE:</b>
 <blockquote>N150,000 ≈ $100 (ONE-TIME)</blockquote>
 
@@ -125,7 +125,7 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
 • Access to my VIP Signals group
-• Lifetime Mentorshio/follow-up</blockquote>
+• Lifetime Mentorship/follow-up</blockquote>
 <b>PRICE:</b>
 <blockquote>N450,000 ≈ $315 (ONE-TIME)</blockquote>
 
