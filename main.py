@@ -68,8 +68,7 @@ VIP_DETAILS = """
 
 <blockquote>Premium Forex Signals with High Accuracy
 • Minimum 3–5 signals weekly
-• 90% win rate track record
-• Automatic removal when subscription expires</blockquote>
+• 90% win rate track record</blockquote>
 
 <b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
 <blockquote>• Stop Loss & Take Profit levels
@@ -95,20 +94,27 @@ TRAINING_DETAILS = """
 📚 <b>FOREX TRAINING PROGRAM</b> 📚
 
 <blockquote>PICK YOUR PREFERRED PACKAGE PLAN:
-EXCLUSIVE ONE-ON-ONE MENTORSHIP (online)
-EXCLUSIVE ONE-ONE-ONE MENTORSHIP (physical)</blockquote>
+Exclusive One-On-One Mentorship (online)
+Exclusive One-On-One Mentorship (physical)</blockquote>
 
-<b>EXCLUSIVE ONE-ONE-ONE TRAINING/MENTORSHIP (online Private Training)</b>
+<b>EXCLUSIVE ONE-ONE-ONE TRAINING (online Private Training)</b>
 <blockquote>• Live sessions (Zoom/call/chat)
 • 1 month + 2 weeks duration
 • 3 sessions weekly (2–3 hrs)
-• PRICE: N150,000 ≈ $100 (ONE-TIME)</blockquote>
+• Access to my VIP Signals group
+• Lifetime Mentorshio/follow-up</blockquote>
+<b>PRICE:</b>
+<blockquote>N150,000 ≈ $100 (ONE-TIME)</blockquote>
 
-<b>EXCLUSIVE ONE-ONE-ONE MENTORSHIP (Physical Private Training) ~ [locals only]</b>
+<b>EXCLUSIVE ONE-ONE-ONE TRAINING (Physical Private Training) ~ [locals only]</b>
 <blockquote>• In-person at trade office
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
-• PRICE: N450,000 ≈ $315 (ONE-TIME)</blockquote>
+• Access to my VIP Signals group
+• Lifetime Mentorshio/follow-up</blockquote>
+
+<b>PRICE:</b>
+<blockquote>N450,000 ≈ $315 (ONE-TIME)</blockquote>
 
 <b>VALUE DELIVERED:</b>
 <blockquote>• Master and interprete market analysis
