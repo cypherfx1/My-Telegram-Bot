@@ -66,8 +66,8 @@ We will provide personalized instructions.
 VIP_DETAILS = """
 🔥 <b>VIP Signal Service</b> 🔥
 
-<blockquote>Premium Forex Signals with High Accuracy
-• Minimum 3–5 signals weekly
+<b>Premium Forex Signals with High Accuracy</b>
+• Minimum 3–5 signals weekly (minimum!)
 • 90% win rate track record</blockquote>
 
 <b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
@@ -93,7 +93,7 @@ Daily signals, analysis, and dedicated support! 🚀</blockquote>
 TRAINING_DETAILS = """
 📚 <b>FOREX TRAINING PROGRAM</b> 📚
 
-<blockquote>PICK YOUR PREFERRED PACKAGE PLAN:
+<b>PICK YOUR PREFERRED PACKAGE PLAN:</b>
 Exclusive One-On-One Mentorship (online)
 Exclusive One-On-One Mentorship (physical)</blockquote>
 
@@ -106,15 +106,16 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 <b>PRICE:</b>
 <blockquote>N150,000 ≈ $100 (ONE-TIME)</blockquote>
 
+
 <b>EXCLUSIVE ONE-ONE-ONE TRAINING (Physical Private Training) ~ [locals only]</b>
 <blockquote>• In-person at trade office
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
 • Access to my VIP Signals group
 • Lifetime Mentorshio/follow-up</blockquote>
-
 <b>PRICE:</b>
 <blockquote>N450,000 ≈ $315 (ONE-TIME)</blockquote>
+
 
 <b>VALUE DELIVERED:</b>
 <blockquote>• Master and interprete market analysis
