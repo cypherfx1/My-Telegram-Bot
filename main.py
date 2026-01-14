@@ -68,12 +68,12 @@ VIP_DETAILS = """
 
 <b>Premium Forex Signals with High Accuracy</b>
 <blockquote>• Minimum 3–5 signals weekly (minimum!)
-• 90% win rate track record
+• 90% win rate track record</blockquote>
 
 <b>PAIRS WE TRADE</b>
 <blockquote>»» Major Currences
 »» Gold Pair
-»» Crypto (btc & eth)</blockquote></blockquote>
+»» Crypto (btc & eth)</blockquote>
 
 <b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
 <blockquote>• Stop Loss & Take Profit levels
@@ -97,7 +97,6 @@ http://bit.ly/41jyYri</blockquote>
 
 <b>TERMS & CONDITIONS</b>
 <blockquote>Complaints only after a full month of following rules.
-
 Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
@@ -109,7 +108,8 @@ TRAINING_DETAILS = """
 <blockquote>Exclusive One-On-One Mentorship (online)
 Exclusive One-On-One Mentorship (physical)</blockquote>
 
-<b>EXCLUSIVE ONE-ONE-ONE TRAINING (online Private Training)</b>
+<b>EXCLUSIVE ONE-ONE-ONE TRAINING
+(online Private Training)</b>
 <blockquote>• Live sessions (Zoom/call/chat)
 • 1 month + 2 weeks duration
 • 3 sessions weekly (2–3 hrs)
@@ -119,7 +119,8 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 <blockquote>N150,000 ≈ $100 (ONE-TIME)</blockquote>
 
 
-<b>EXCLUSIVE ONE-ONE-ONE TRAINING (Physical Private Training) ~ [locals only]</b>
+<b>EXCLUSIVE ONE-ONE-ONE TRAINING
+(Physical Private Training) ~ [locals only]</b>
 <blockquote>• In-person at trade office
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
