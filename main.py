@@ -94,8 +94,8 @@ VIP_DETAILS = """
 <blockquote>Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
-# Mentorship Details (renamed from Training)
-MENTORSHIP_DETAILS = """
+# Training Details (renamed button, but internal name kept for logic)
+TRAINING_DETAILS = """
 📚 <b>Forex Training Program</b> 📚
 
 <b>Pick your preferred Package</b>
@@ -131,24 +131,25 @@ MENTORSHIP_DETAILS = """
 <blockquote>We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
 """.strip()
 
-# Beginner Course Details (new)
-BEGINNER_COURSE_DETAILS = """
-📚 <b>Introduction to Forex Trading</b> 📚 <i>Part 1 & 2</i>
+# New Course Details (formatted exactly like TRAINING_DETAILS style)
+COURSE_DETAILS = """
+📚 <b>Introduction to Forex Trading</b> 📚 <b>Part 1&2</b>
 
-<b>This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.</b>
+<blockquote>This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.</blockquote>
 
-<blockquote>This course starts with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illiterate will be able to understand it clearly and have a strong ground in the Forex market.
-We also did practical samples on how to use the trading platform for newbies.</blockquote>
+<b>PRICE:</b> N15,000 ≈ $13 only
+
+<blockquote>This course started with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illitrate will be able to understand it clearly and have a strong ground in the Forex market
+We also did practicals samples on how to use the trading platform for newbies</blockquote>
 
 <b>NB:</b>
-
 <blockquote>You must not skip this preliminary level if you ever want to trade the Forex Market.</blockquote>
 
 <b>Value Delivered:</b>
 
-<blockquote>The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level.</blockquote>
+<blockquote>The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level</blockquote>
 
-<b>Secret:</b> This course will open your eyes on what Forex Trading is all about. 📉📈💹
+<blockquote>Secret: This course will open your eyes on what Forex Trading is all about.📉📈💹</blockquote>
 """.strip()
 
 # EA Details
@@ -197,7 +198,7 @@ def get_main_menu_kb():
     kb.button(text="Vip Signal", callback_data="menu_vip")
     kb.button(text="Forex Training/Mentorship", callback_data="menu_training")  # ← Renamed button
     kb.button(text="EA ~ Let robot trade for you", callback_data="menu_ea")
-    kb.button(text="Forex course for beginners part 1&2", callback_data="menu_course")  # ← New button (under EA)
+    kb.button(text="Forex course for beginners part 1&2", callback_data="menu_course")  # ← New button under EA
     kb.button(text="Partnership", callback_data="menu_partnership")
     kb.button(text="Gift", callback_data="menu_gift")
     kb.button(text="FAQ", callback_data="menu_faq")
@@ -241,12 +242,12 @@ async def menu_vip(call: CallbackQuery):
     await call.answer()
 
 @router.callback_query(F.data == "menu_training")
-async def menu_mentorship(call: CallbackQuery):  # ← Renamed handler for clarity
+async def menu_training(call: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.button(text="Proceed to Pay", callback_data="pay_training")
     kb.button(text="🔙 Back to Main Menu", callback_data="main_menu")
     kb.adjust(1)
-    await call.message.edit_text(MENTORSHIP_DETAILS, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
+    await call.message.edit_text(TRAINING_DETAILS, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
     await call.answer()
 
 @router.callback_query(F.data == "menu_course")  # ← New handler
@@ -255,7 +256,7 @@ async def menu_course(call: CallbackQuery):
     kb.button(text="Proceed to Pay", callback_data="pay_course")
     kb.button(text="🔙 Back to Main Menu", callback_data="main_menu")
     kb.adjust(1)
-    await call.message.edit_text(BEGINNER_COURSE_DETAILS, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
+    await call.message.edit_text(COURSE_DETAILS, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
     await call.answer()
 
 @router.callback_query(F.data == "menu_ea")
@@ -365,7 +366,7 @@ async def process_pay(call: CallbackQuery, state: FSMContext):
     elif call.data == "pay_training":
         service = "Forex Training/Mentorship"
     elif call.data == "pay_course":
-        service = "Forex Course for Beginners Part 1&2"
+        service = "Forex Course Beginners Part 1&2"
     else:
         service = "Service"
     
@@ -451,10 +452,10 @@ async def sent_payment(call: CallbackQuery):
 async def handle_back(call: CallbackQuery, state: FSMContext):
     current_state = await state.get_state()
     data = await state.get_data()
+    service = data.get("service", "Service")
     
     if current_state == PaymentFlow.waiting_for_proof.state:
         await state.set_state(PaymentFlow.choosing_method)
-        service = data.get("service", "Service")
         method_kb = InlineKeyboardBuilder()
         method_kb.button(text="Naira Payment", callback_data="method_naira")
         method_kb.button(text="USDT TRC20", callback_data="method_usdt")
@@ -472,23 +473,22 @@ async def handle_back(call: CallbackQuery, state: FSMContext):
     
     if current_state == PaymentFlow.choosing_method.state or "service" in data:
         await state.clear()
-        service = data.get("service", "VIP Signal")
-        
         if service == "VIP Signal":
             text = VIP_DETAILS
             pay_data = "pay_vip"
         elif service == "Forex Training/Mentorship":
-            text = MENTORSHIP_DETAILS
+            text = TRAINING_DETAILS
             pay_data = "pay_training"
-        elif service == "Forex Course for Beginners Part 1&2":
-            text = BEGINNER_COURSE_DETAILS
+        elif service == "Forex Course Beginners Part 1&2":
+            text = COURSE_DETAILS
             pay_data = "pay_course"
         else:
-            text = VIP_DETAILS
-            pay_data = "pay_vip"
-            
+            text = MAIN_MENU_TEXT
+            pay_data = None
+        
         kb = InlineKeyboardBuilder()
-        kb.button(text="Proceed to Pay", callback_data=pay_data)
+        if pay_data:
+            kb.button(text="Proceed to Pay", callback_data=pay_data)
         kb.button(text="🔙 Back to Main Menu", callback_data="main_menu")
         kb.adjust(1)
         await call.message.edit_text(text, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
