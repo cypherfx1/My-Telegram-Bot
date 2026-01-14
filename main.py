@@ -62,88 +62,85 @@ contact support: @cypherfx
 We will provide personalized instructions.
 """
 
-# VIP Details (updated exactly as requested)
+# VIP Details (styled exactly like EA)
 VIP_DETAILS = """
-🔥 VIP Signal Service 🔥
+🔥 <b>VIP Signal Service</b> 🔥
 
-Premium Forex Signals with High Accuracy
+<blockquote>Premium Forex Signals with High Accuracy
 • Minimum 3–5 signals weekly
 • 90% win rate track record
-• Automatic removal when subscription expires
+• Automatic removal when subscription expires</blockquote>
 
-FULL TRADE MANAGEMENT GUIDANCE INCLUDED:
-• Stop Loss & Take Profit levels
+<b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
+<blockquote>• Stop Loss & Take Profit levels
 • Break-even strategies
 • When to close trades
 • Partial profit techniques
-• Additional risk management tips
+• Additional risk management tips</blockquote>
 
-PRICE PLANS
-• 1 MONTH: N50,000 ≈ $35
+<b>PRICE PLANS</b>
+<blockquote>• 1 MONTH: N50,000 ≈ $35
 • 3 MONTHS: N130,000 ≈ $91
 • 6 MONTHS: N260,000 ≈ $182
-• 12 MONTHS: N520,000 ≈ $364
+• 12 MONTHS: N520,000 ≈ $364</blockquote>
 
-TERMS & CONDITIONS
-Complaints only after a full month of following rules.
+<b>TERMS & CONDITIONS</b>
+<blockquote>Complaints only after a full month of following rules.
 
-Daily signals, analysis, and dedicated support! 🚀
+Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
-# Training Details (updated exactly as requested)
+# Training Details (styled exactly like EA)
 TRAINING_DETAILS = """
-📚 FOREX TRAINING PROGRAM📚
+📚 <b>FOREX TRAINING PROGRAM</b> 📚
 
-PICK YOUR PREFERRED PACKAGE PLAN:
+<blockquote>PICK YOUR PREFERRED PACKAGE PLAN:
 EXCLUSIVE ONE-ON-ONE MENTORSHIP (online)
-EXCLUSIVE ONE-ONE-ONE MENTORSHIP (physical)
+EXCLUSIVE ONE-ONE-ONE MENTORSHIP (physical)</blockquote>
 
-EXCLUSIVE ONE-ONE-ONE TRAINING/MENTORSHIP 
-(online Private Training)
-• Live sessions (Zoom/call/chat)
+<b>EXCLUSIVE ONE-ONE-ONE TRAINING/MENTORSHIP (online Private Training)</b>
+<blockquote>• Live sessions (Zoom/call/chat)
 • 1 month + 2 weeks duration
 • 3 sessions weekly (2–3 hrs)
-• PRICE: N150,000 ≈ $100 (ONE-TIME)
+• PRICE: N150,000 ≈ $100 (ONE-TIME)</blockquote>
 
-EXCLUSIVE ONE-ONE-ONE MENTORSHIP
-(Physical Private Training) ~ [locals only]
-• In-person at trade office
+<b>EXCLUSIVE ONE-ONE-ONE MENTORSHIP (Physical Private Training) ~ [locals only]</b>
+<blockquote>• In-person at trade office
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
-• PRICE: N450,000 ≈ $315 (ONE-TIME)
+• PRICE: N450,000 ≈ $315 (ONE-TIME)</blockquote>
 
-VALUE DELIVERED:
-• Master and interprete market analysis
+<b>VALUE DELIVERED:</b>
+<blockquote>• Master and interprete market analysis
 • Generate your own accurate buy/sell signals
 • Trade independently as a full-time or part-time pro trader
 • Make money daily from your analysis
 • Be your own boss and not work 9 to 5
 • Lifetime skills for consistent profits
 
-We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹
+We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
 """.strip()
 
-# New Beginners Course Details (added exactly as requested, positioned under Training in the menu)
+# Course Details (styled exactly like EA)
 COURSE_DETAILS = """
-📚INTRODUCTION TO FOREX TRADING📚 Part 1&2
+📚 <b>INTRODUCTION TO FOREX TRADING Part 1&2</b> 📚
 
-This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.
+<blockquote>This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.</blockquote>
 
+<b>PRICE:</b>
+<blockquote>N15,000 ≈ $13 only</blockquote>
 
-PRICE: N15,000 ≈ $13 only
-
-
-This course started with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illitrate will be able to understand it clearly and have a strong ground in the Forex market
+<blockquote>This course started with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illitrate will be able to understand it clearly and have a strong ground in the Forex market
 We also did practicals samples on how to use the trading platform for newbies
 
 NB:
-You must not skip this preliminary level if you ever want to trade the Forex Market.
+You must not skip this preliminary level if you ever want to trade the Forex Market.</blockquote>
 
-VALUE DELIVERED:
-The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level
+<b>VALUE DELIVERED:</b>
+<blockquote>The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level</blockquote>
 
-SECRET:
-This course will open your eyes on what Forex Trading is all about.📉📈💹
+<b>SECRET:</b>
+<blockquote>This course will open your eyes on what Forex Trading is all about.📉📈💹</blockquote>
 """.strip()
 
 # EA Details (unchanged)
