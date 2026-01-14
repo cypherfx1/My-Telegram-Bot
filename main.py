@@ -62,19 +62,18 @@ contact support: @cypherfx
 We will provide personalized instructions.
 """
 
-# VIP Details (styled exactly like EA)
+# VIP Details (fixed HTML: removed empty bullet, closed the outer blockquote properly)
 VIP_DETAILS = """
 🔥 <b>VIP Signal Service</b> 🔥
 
 <b>Premium Forex Signals with High Accuracy</b>
 <blockquote>• Minimum 3–5 signals weekly (minimum!)
 • 90% win rate track record
-• 
 
 <b>PAIRS WE TRADE</b>
 <blockquote>»» Major Currences
 »» Gold Pair
-»» Crypto (btc & eth)</blockquote>
+»» Crypto (btc & eth)</blockquote></blockquote>
 
 <b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
 <blockquote>• Stop Loss & Take Profit levels
@@ -102,7 +101,7 @@ http://bit.ly/41jyYri</blockquote>
 Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
-# Training Details (styled exactly like EA)
+# Training Details (fixed HTML: wrapped the final paragraph in its own blockquote to match tags)
 TRAINING_DETAILS = """
 📚 <b>FOREX TRAINING PROGRAM</b> 📚
 
@@ -138,7 +137,7 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 • Be your own boss and not work 9 to 5
 • Lifetime skills for consistent profits</blockquote>
 
-We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
+<blockquote>We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
 """.strip()
 
 # Course Details (styled exactly like EA)
