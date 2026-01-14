@@ -62,97 +62,91 @@ contact support: @cypherfx
 We will provide personalized instructions.
 """
 
-# VIP Details
+# VIP Details (updated exactly as requested)
 VIP_DETAILS = """
-🔥 <b>VIP Signal Service</b> 🔥
+🔥 VIP Signal Service 🔥
 
-<b>Premium Forex Signals with High Accuracy</b>
-
-<blockquote>• Minimum 3–5 signals weekly
+Premium Forex Signals with High Accuracy
+• Minimum 3–5 signals weekly
 • 90% win rate track record
-• Automatic removal when subscription expires</blockquote>
+• Automatic removal when subscription expires
 
-<b>Full Trade Management Guidance Included:</b>
-
-<blockquote>• Stop Loss & Take Profit levels
+FULL TRADE MANAGEMENT GUIDANCE INCLUDED:
+• Stop Loss & Take Profit levels
 • Break-even strategies
 • When to close trades
 • Partial profit techniques
-• Additional risk management tips</blockquote>
+• Additional risk management tips
 
-<b>Pricing Plans</b>
+PRICE PLANS
+• 1 MONTH: N50,000 ≈ $35
+• 3 MONTHS: N130,000 ≈ $91
+• 6 MONTHS: N260,000 ≈ $182
+• 12 MONTHS: N520,000 ≈ $364
 
-<blockquote>• <b>1 Month:</b> N50,000 ≈ $35
-• <b>3 Months:</b> N130,000 ≈ $91
-• <b>6 Months:</b> N260,000 ≈ $182
-• <b>12 Months:</b> N520,000 ≈ $364</blockquote>
+TERMS & CONDITIONS
+Complaints only after a full month of following rules.
 
-<b>Terms & Conditions</b>
-
-<blockquote>Complaints only after a full month of following rules.</blockquote>
-
-<blockquote>Daily signals, analysis, and dedicated support! 🚀</blockquote>
+Daily signals, analysis, and dedicated support! 🚀
 """.strip()
 
-# Training Details (renamed button, but internal name kept for logic)
+# Training Details (updated exactly as requested)
 TRAINING_DETAILS = """
-📚 <b>Forex Training Program</b> 📚
+📚 FOREX TRAINING PROGRAM📚
 
-<b>Pick your preferred Package</b>
+PICK YOUR PREFERRED PACKAGE PLAN:
+EXCLUSIVE ONE-ON-ONE MENTORSHIP (online)
+EXCLUSIVE ONE-ONE-ONE MENTORSHIP (physical)
 
-<blockquote><b>Exclusive One-on-One Mentorship (online)</b>
-<b>Exclusive One-on-One Mentorship (physical)</b></blockquote>
-
-<b><b>Exclusive One-on-One Mentorship</b></b>
-<i>(online Private Training)</i>
-
-<blockquote>• Live sessions (Zoom/call/chat)
+EXCLUSIVE ONE-ONE-ONE TRAINING/MENTORSHIP 
+(online Private Training)
+• Live sessions (Zoom/call/chat)
 • 1 month + 2 weeks duration
 • 3 sessions weekly (2–3 hrs)
-• Price: N150,000 ≈ $100 (one-time)</blockquote>
+• PRICE: N150,000 ≈ $100 (ONE-TIME)
 
-<b><b>Exclusive One-on-One Mentorship</b></b>
-<i>(Physical Private Training) ~ [locals only]</i>
-
-<blockquote>• In-person at trade office
+EXCLUSIVE ONE-ONE-ONE MENTORSHIP
+(Physical Private Training) ~ [locals only]
+• In-person at trade office
 • 1 month duration
 • 3 sessions weekly (2–3 hrs)
-• Price: N450,000 ≈ $315 (one-time)</blockquote>
+• PRICE: N450,000 ≈ $315 (ONE-TIME)
 
-<b>Value Delivered</b>
-
-<blockquote>• Master and interprete market analysis
+VALUE DELIVERED:
+• Master and interprete market analysis
 • Generate your own accurate buy/sell signals
 • Trade independently as a full-time or part-time pro trader
 • Make money daily from your analysis
 • Be your own boss and not work 9 to 5
-• Lifetime skills for consistent profits</blockquote>
+• Lifetime skills for consistent profits
 
-<blockquote>We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
+We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹
 """.strip()
 
-# New Course Details (formatted exactly like TRAINING_DETAILS style)
+# New Beginners Course Details (added exactly as requested, positioned under Training in the menu)
 COURSE_DETAILS = """
-📚 <b>Introduction to Forex Trading</b> 📚 <b>Part 1&2</b>
+📚INTRODUCTION TO FOREX TRADING📚 Part 1&2
 
-<blockquote>This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.</blockquote>
+This course is strictly for newbies who want to have a very strong and unshakable root in Forex Trading.
 
-<b>PRICE:</b> N15,000 ≈ $13 only
 
-<blockquote>This course started with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illitrate will be able to understand it clearly and have a strong ground in the Forex market
-We also did practicals samples on how to use the trading platform for newbies</blockquote>
+PRICE: N15,000 ≈ $13 only
 
-<b>NB:</b>
-<blockquote>You must not skip this preliminary level if you ever want to trade the Forex Market.</blockquote>
 
-<b>Value Delivered:</b>
+This course started with "What is Forex". We broke Forex Trading down to a layman's understanding such that even an illitrate will be able to understand it clearly and have a strong ground in the Forex market
+We also did practicals samples on how to use the trading platform for newbies
 
-<blockquote>The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level</blockquote>
+NB:
+You must not skip this preliminary level if you ever want to trade the Forex Market.
 
-<blockquote>Secret: This course will open your eyes on what Forex Trading is all about.📉📈💹</blockquote>
+VALUE DELIVERED:
+The primary value of this course is providing a comprehensive foundational bridge for beginner traders. It aims to demystify the "preliminary aspect" of the market so that students are not confused when they reach advanced analytical levels. You can't do without them. By standardizing the "peculiar languages" and terminologies of the industry, it prepares the reader to understand professional market analysis and successfully navigate trading platforms like MT4. Doing without them is like jumping primary and secondary school into the University level
+
+SECRET:
+This course will open your eyes on what Forex Trading is all about.📉📈💹
 """.strip()
 
-# EA Details
+# EA Details (unchanged)
 EA_DETAILS = """
 🤖 <b>ROBOT TRADING (Automated EA)</b>
 
@@ -192,13 +186,13 @@ persistent_kb_builder.button(text="▶️ Start")
 persistent_kb_builder.adjust(2)
 persistent_kb = persistent_kb_builder.as_markup(resize_keyboard=True)
 
-# Inline main menu
+# Inline main menu (Vip renamed to Vip Signals, Training renamed, Course added right under Training)
 def get_main_menu_kb():
     kb = InlineKeyboardBuilder()
-    kb.button(text="Vip Signal", callback_data="menu_vip")
-    kb.button(text="Forex Training/Mentorship", callback_data="menu_training")  # ← Renamed button
+    kb.button(text="Vip Signals", callback_data="menu_vip")
+    kb.button(text="Forex Training/Mentorship", callback_data="menu_training")
+    kb.button(text="Forex Course for beginners Part 1&2", callback_data="menu_course")
     kb.button(text="EA ~ Let robot trade for you", callback_data="menu_ea")
-    kb.button(text="Forex course for beginners part 1&2", callback_data="menu_course")  # ← New button under EA
     kb.button(text="Partnership", callback_data="menu_partnership")
     kb.button(text="Gift", callback_data="menu_gift")
     kb.button(text="FAQ", callback_data="menu_faq")
@@ -250,7 +244,8 @@ async def menu_training(call: CallbackQuery):
     await call.message.edit_text(TRAINING_DETAILS, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
     await call.answer()
 
-@router.callback_query(F.data == "menu_course")  # ← New handler
+# New handler for Beginners Course (positioned under Training in menu)
+@router.callback_query(F.data == "menu_course")
 async def menu_course(call: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.button(text="Proceed to Pay", callback_data="pay_course")
@@ -358,15 +353,15 @@ async def back_to_main_menu(call: CallbackQuery, state: FSMContext):
     await call.message.edit_text(MAIN_MENU_TEXT, reply_markup=get_main_menu_kb())
     await call.answer()
 
-# Payment flow
+# Payment flow - updated to support the new course
 @router.callback_query(F.data.startswith("pay_"))
 async def process_pay(call: CallbackQuery, state: FSMContext):
     if call.data == "pay_vip":
-        service = "VIP Signal"
+        service = "Vip Signals"
     elif call.data == "pay_training":
         service = "Forex Training/Mentorship"
     elif call.data == "pay_course":
-        service = "Forex Course Beginners Part 1&2"
+        service = "Forex Course for beginners Part 1&2"
     else:
         service = "Service"
     
@@ -429,7 +424,7 @@ async def choose_payment_method(call: CallbackQuery, state: FSMContext):
         
         await call.message.edit_text(
             f"💳 {service} — {method_name}\n\n"
-            "<b>Tap the Account No or Crypto Address to copy it instantly (avoids typing errors!)</b>\n\n"
+            "<b>Tap the Account No or Crypto Address to copy it instantly (avoids typing errors!)</b>\n\n"  # ← Updated instruction
             f"{details}",
             reply_markup=sent_kb.as_markup(),
             parse_mode=ParseMode.HTML
@@ -447,15 +442,15 @@ async def sent_payment(call: CallbackQuery):
     )
     await call.answer()
 
-# Progressive back
+# Progressive back (updated to support the new course)
 @router.callback_query(F.data == "back")
 async def handle_back(call: CallbackQuery, state: FSMContext):
     current_state = await state.get_state()
     data = await state.get_data()
-    service = data.get("service", "Service")
     
     if current_state == PaymentFlow.waiting_for_proof.state:
         await state.set_state(PaymentFlow.choosing_method)
+        service = data.get("service", "Service")
         method_kb = InlineKeyboardBuilder()
         method_kb.button(text="Naira Payment", callback_data="method_naira")
         method_kb.button(text="USDT TRC20", callback_data="method_usdt")
@@ -473,22 +468,21 @@ async def handle_back(call: CallbackQuery, state: FSMContext):
     
     if current_state == PaymentFlow.choosing_method.state or "service" in data:
         await state.clear()
-        if service == "VIP Signal":
+        service = data.get("service", "Vip Signals")
+        if service == "Vip Signals":
             text = VIP_DETAILS
             pay_data = "pay_vip"
         elif service == "Forex Training/Mentorship":
             text = TRAINING_DETAILS
             pay_data = "pay_training"
-        elif service == "Forex Course Beginners Part 1&2":
+        elif service == "Forex Course for beginners Part 1&2":
             text = COURSE_DETAILS
             pay_data = "pay_course"
         else:
-            text = MAIN_MENU_TEXT
-            pay_data = None
-        
+            text = VIP_DETAILS
+            pay_data = "pay_vip"
         kb = InlineKeyboardBuilder()
-        if pay_data:
-            kb.button(text="Proceed to Pay", callback_data=pay_data)
+        kb.button(text="Proceed to Pay", callback_data=pay_data)
         kb.button(text="🔙 Back to Main Menu", callback_data="main_menu")
         kb.adjust(1)
         await call.message.edit_text(text, reply_markup=kb.as_markup(), parse_mode=ParseMode.HTML)
