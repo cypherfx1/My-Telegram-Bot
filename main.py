@@ -68,25 +68,33 @@ VIP_DETAILS = """
 
 <b>Premium Forex Signals with High Accuracy</b>
 <blockquote>• Minimum 3–5 signals weekly (minimum!)
+• Monday - Friday active Signals
 • 90% win rate track record</blockquote>
 
 <b>PAIRS WE TRADE</b>
-<blockquote>»» Major Currences
-»» Gold Pair
-»» Crypto (btc & eth)</blockquote>
+<blockquote>»» Major Currency pairs
+»» Gold and Silver Pair
+»» Crypto (Bitcoin & Etherum)</blockquote>
 
-<b>FULL TRADE MANAGEMENT GUIDANCE INCLUDED:</b>
+<b>+FULL TRADE MANAGEMENT GUIDANCE</b>
 <blockquote>• Stop Loss & Take Profit levels
 • Break-even strategies
 • When to close trades
 • Partial profit techniques
 • Additional risk management tips</blockquote>
 
-<b>PRICE PLANS</b>
-<blockquote>• 1 MONTH: N50,000 ≈ $35
-• 3 MONTHS: N130,000 ≈ $91
-• 6 MONTHS: N260,000 ≈ $182
-• 12 MONTHS: N520,000 ≈ $364</blockquote>
+<b>VIP SIGNALS SUBSCRIPTION PLANS</b>
+<b>1 Month</b>
+<blockquote>N50,000 ≈ $35</blockquote>
+
+<b>3 Months</b>
+<blockquote>• N130,000 ≈ $91</blockquote>
+
+<b>6 Months</b>
+<blockquote>N260,000 ≈ $182</blockquote>
+
+<b>12 Months</b>
+<blockquote>N520,000 ≈ $364</blockquote>
 
 <b>GOOD NEWS</b> 🎉 
 <blockquote>You don't need any trading experience to trade and make money with us in the Vip Signal Group!
@@ -96,7 +104,7 @@ http://bit.ly/41jyYri</blockquote>
 <blockquote>Join, sit back, and be alert for our buy or sell signals/charts projections. Once we post and confirm the signal, trade it exactly as you see and count your profit. With only our signals and trades, you will be making good profit daily. Be rest assured that your trading account will grow awesomely</blockquote>
 
 <b>TERMS & CONDITIONS</b>
-<blockquote>Complaints only after a full month of following signals.
+<blockquote>Complaints after a full month of following signals
 Daily signals, analysis, and dedicated support! 🚀</blockquote>
 """.strip()
 
@@ -110,10 +118,10 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 
 <b>EXCLUSIVE ONE-ONE-ONE TRAINING
 (online Private Training)</b>
-<blockquote>• Live sessions (Zoom/call/chat)
+<blockquote>• Live sessions (Zoom video meet/chat)
 • 1 month + 2 weeks duration
-• 3 sessions weekly (2–3 hrs)
-• Access to my VIP Signals group
+• 3 sessions weekly (2–3 hrs per session)
+• Access to my VIP Signals Group
 • Lifetime Mentorship/follow-up</blockquote>
 <b>PRICE:</b>
 <blockquote>N150,000 ≈ $100 (ONE-TIME)</blockquote>
@@ -123,8 +131,8 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 (Physical Private Training) ~ [locals only]</b>
 <blockquote>• In-person at trade office
 • 1 month duration
-• 3 sessions weekly (2–3 hrs)
-• Access to my VIP Signals group
+• 3 sessions weekly (2–3 hrs per session)
+• Access to my VIP Signals Group
 • Lifetime Mentorship/follow-up</blockquote>
 <b>PRICE:</b>
 <blockquote>N450,000 ≈ $315 (ONE-TIME)</blockquote>
@@ -138,7 +146,7 @@ Exclusive One-On-One Mentorship (physical)</blockquote>
 • Be your own boss and not work 9 to 5
 • Lifetime skills for consistent profits</blockquote>
 
-<blockquote>We transform you from a novice trader to a Pro Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
+<blockquote>We transform you from a novice trader to a Master Forex trader. We don't just mentor you to become a forex trader but to become a "Profitable Forex Trader" who is able to analyse the market, generate buy & sell signals for yourself and make money from it daily 💹</blockquote>
 """.strip()
 
 # Course Details (styled exactly like EA)
