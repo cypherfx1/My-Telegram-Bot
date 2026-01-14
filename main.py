@@ -110,7 +110,7 @@ Daily signals, analysis, and dedicated support! 🚀</blockquote>
 
 # Training Details (fixed HTML: wrapped the final paragraph in its own blockquote to match tags)
 TRAINING_DETAILS = """
-📚 <b>FOREX TRAINING PROGRAM</b> 📚
+📚 <b>FOREX TRAINING PROGRAM + MENTORSHIP</b> 📚
 
 <b>PICK YOUR PREFERRED PACKAGE PLAN</b>
 <blockquote>Exclusive One-On-One Mentorship (online)
@@ -178,20 +178,21 @@ EA_DETAILS = """
 <blockquote>I have optimized a very powerful and profitable Forex Expert Advisor (Trading Robot) that can trade for you and earn you profits on a daily basis, which compounds into an amazing monthly profit</blockquote>
 
 <b>Monthly Profit Range</b>
-
 <blockquote>5% and up to 20% profit monthly</blockquote>
 
 <b>Recommended Capital</b>
-
 <blockquote>Account size Range: $500 - $10,000</blockquote>
 
 <blockquote>Send a message to @cypherfx for a guide to connect the robot to your trading account (MT4). It will start executing trades automatically once the market is favorable.</blockquote>
 
-<blockquote><b>NB:</b> A 40:60 MONTHLY PROFIT SPLIT APPLICABLE. 60% of the profit is yours while 40% is ours.</blockquote>
+<b>NB</b>
+<blockquote>A 40:60 MONTHLY PROFIT SPLIT APPLICABLE. 60% of the profit is yours while 40% is ours.</blockquote>
 
-<blockquote><b>NB:</b> There is a 10% activation fee before we proceed to copy trades into your account. This is NON NEGOTIABLE</blockquote>
+<b>NB</b>
+<blockquote>There is a 10% activation fee before we proceed to copy trades into your account. This is NON NEGOTIABLE</blockquote>
 
-<blockquote><b>NB:</b> Your Forex account must be created with the broker link below</blockquote>
+<b>NB</b>
+<blockquote>Your Forex account must be created with the broker link below</blockquote>
 """.strip()
 
 EXNESS_LINK = "http://bit.ly/41jyYri"
@@ -322,7 +323,6 @@ async def menu_faq(call: CallbackQuery):
 <b>❓ Frequently Asked Questions (FAQ)</b>
 
 <b>1. How much is CypherFx VIP Signal, how do I pay and sign up?</b>
-
 <blockquote>VIP Signal prices:
 • Monthly — N50,000 ≈ $35
 • 3 Months — N130,000 ≈ $91
@@ -332,21 +332,17 @@ async def menu_faq(call: CallbackQuery):
 To sign up: Select “Vip Signal” from the main menu → “Proceed to Pay” → choose your payment method.</blockquote>
 
 <b>2. How are signals sent and what format do they use?</b>
-
 <blockquote>Signals are premium buy/sell recommendations with entry price, stop loss, take profit, and full management guidance (break-even, partial profits, etc.).
 Delivered directly with high accuracy (90% win rate target).</blockquote>
 
 <b>3. When are signals sent?</b>
-
-<blockquote>Minimum 3–5 high-quality signals per week, sent during optimal market sessions for best results.</blockquote>
+<blockquote>Minimum 3–5 (minimum) high-quality signals per week, sent during optimal market sessions for best results.</blockquote>
 
 <b>4. What is the minimum capital to trade CypherFx signals?</b>
-
 <blockquote>• Live account: Minimum $50 (no maximum)
 • Prop firm accounts: Minimum $5000 (no maximum)</blockquote>
 
 <b>5. Can I cancel my subscription and get a refund?</b>
-
 <blockquote>You can choose not to renew — access ends automatically when the subscription expires.
 No refunds after access is granted.</blockquote>
 
